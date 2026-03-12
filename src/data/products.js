@@ -24,7 +24,7 @@ export const products = [
     description:
       "Drop-shoulder silhouette in 240gsm brushed cotton. Washed and garment-dyed for that lived-in feel. Slightly cropped hem with ribbed cuffs.",
     images: [
-      "/public/white-tshirt.jpg?w=600&q=80",
+      "/white-tshirt.jpg?w=600&q=80",
       "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
     ],
     tags: ["oversized", "cotton", "washed"],
