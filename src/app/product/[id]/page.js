@@ -157,9 +157,12 @@ export default function ProductPage({ params }) {
             >
               {added ? "✓ Added to Cart" : "Add to Cart"}
             </button>
-            <Link href="/cart" className={styles.buyNow}>
+            <button className={styles.buyNow} onClick={handleAddToCart}>
+              {added ? "✓ Added to Cart" : "Buy Now"}
+            </button>
+            {/* <Link href="/checkout" className={styles.buyNow}>
               Buy Now
-            </Link>
+            </Link> */}
           </div>
 
           {/* Tabs */}
